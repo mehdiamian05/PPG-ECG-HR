@@ -31,3 +31,6 @@ pip install wfdb numpy scipy matplotlib jupyter
 - scipy — For core DSP functions (Butterworth filters, peak detection).
 - numpy — For vectorized mathematical operations and array handling.
 - matplotlib — For rendering the dual-axis signal visualizations.
+
+## Results
+![ECG and PPG Peak Detection](results_plot.png)
