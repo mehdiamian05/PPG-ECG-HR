@@ -14,19 +14,20 @@ A Python-based Digital Signal Processing (DSP) pipeline designed to accurately e
 
 This project requires Python 3.x. It is highly recommended to run this inside a virtual environment to prevent package conflicts.
 
-**1. Clone the repository and navigate to the directory:**
+1. Clone the repository and navigate to the directory:
 ```bash
-git clone [https://github.com/mehdiamian05/PPG-ECG-HR.git](https://github.com/mehdiamian05/PPG-ECG-HR.git)
-cd your-repo-name
+git clone https://github.com/mehdiamian05/PPG-ECG-HR.git
+cd PPG-ECG-HR
+```
 
+2. Install dependencies:
 ```bash
 pip install wfdb numpy scipy matplotlib jupyter
+```
 
 ## Dependencies
-wfdb: For streaming physiological records from PhysioNet.
 
-scipy: For core DSP functions (Butterworth filters, peak detection).
-
-numpy: For vectorized mathematical operations and array handling.
-
-matplotlib: For rendering the dual-axis signal visualizations.
+- wfdb — For streaming physiological records from PhysioNet.
+- scipy — For core DSP functions (Butterworth filters, peak detection).
+- numpy — For vectorized mathematical operations and array handling.
+- matplotlib — For rendering the dual-axis signal visualizations.
