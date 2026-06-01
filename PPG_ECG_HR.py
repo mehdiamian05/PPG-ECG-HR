@@ -1,12 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # # PPG-ECG Heart Rate Estimation
-# 
 # This notebook estimates heart rate from ECG and PPG signals.
-# 
-
-# In[ ]:
 
 
 import wfdb
